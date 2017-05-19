@@ -1,0 +1,170 @@
+
+<html>
+	<head>
+        <title>DiscoverBikes</title>
+        <link rel="stylesheet" type="text/css" href="header_footer.css">
+		<style type="text/css">
+            .border{
+                border: 1px solid black;
+                background-color: white;
+                border-radius: 0.1%;
+                height: 1500px;
+            }
+            .front{
+                display: inline-block;
+                margin: 14px;
+            }
+            #underline{
+                border: 2px solid red;
+
+            }
+            .inline{
+                display: inline;
+            }
+            .category h2{
+                position: relative;
+                left:6%;
+                margin-bottom: 13px;
+                font-weight: normal;
+                margin-top: 40px;
+            }
+            .category hr{
+                bottom: 0;
+                width:90%;
+                left:0.5%;
+                margin-top: 0;
+            }
+            .inline-block{
+                width:200px;
+                height: 200px;
+                display: inline-block;
+
+            }
+            .inline-block a{
+                text-decoration: none;
+                color: black;
+            }
+            .inline-block a:hover{
+                font-weight: bold;
+            }
+            .inline-block img{
+                width: 60px; 
+                height: 54px;
+                border: 1px solid white;
+                margin-top: 16px;
+            }
+            .style_budget_mileage{
+                position: relative;
+                top:10px;
+                width: 250px;
+                height: 200px;
+                display: inline-block;
+                border: 1px solid #8C0073;
+            }
+            .category a{
+                text-decoration: none;
+                color: black;
+                font-size: 22px;
+            }
+            .category a:hover>div{
+                border: 2px solid black;
+            }
+            .category p{
+                position: relative;
+                top:48px;
+            }
+		</style>
+        <script src="jquery-2.1.4.js"></script>
+        <script src="jquery-ui.js"></script>
+ 	</head>
+	<body>
+        <div class="container">
+        <div id="SiteName">
+            <div id="sideBar">
+                <div class="sidebar" id="sideBar1"></div>
+                <div class="sidebar" id="sideBar4"></div>
+                <div class="sidebar" id="sideBar2"></div>
+                <div class="sidebar" id="sideBar5"></div>
+                <div class="sidebar" id="sideBar3"></div>
+
+            </div>
+            
+            <h1>DiscoverBikes</h1><h5><a href="">Login</a></h5>
+        </div>
+        <div id="open" align="center">
+                <ul >
+                    <li align="left"><a href="DiscoverBikes.html">Home</a></li>
+                    <li align="left"><a href="PopularBikes.html">Popular Bikes</a></li>
+                    <li align="left"><a href="NewBikes.html">New Bikes</a></li>
+                    <li align="left"><a href="ContactUs.html">Contact Us</a></li>
+                    <li align="left"><a href="AboutUs.html">About us</a></li>
+                </ul>
+        </div>
+        <script>
+            $("#sideBar1,#sideBar2,#sideBar3,#sideBar4,#sideBar5").click(function(){ 
+                var effect = 'slide';
+                var options = { direction: 'left' };
+                 var duration = 700;
+                 $('#open').toggle(effect, options, duration);
+        })
+        </script>
+        <section> 
+            <div id="mainbody">
+            <div class="bike-container" align="center">
+                <div align="left"><p class="inline" align="left"><h2 class="inline" align="left" style="font-size:30px;">Discover Your Bike</h2></div>
+
+                <div class="border">
+                	<div id="brand" class="category">
+                        <h2 align="left">Brand</h2>
+                        <hr id="hr1">
+                        <div class="inline-block"><a href="Honda/Honda.html"><img src="Honda/hondaLogo.jpg"/><br />Honda</a></div>
+                        <div class="inline-block"><a href="TVS/TVS.html"><img src="TVS/TVSLOGO.gif"></br>TVS</a></div>
+                        <div class="inline-block"><a href="Mahindra/Mahindra.html"><img src="Mahindra/mahindralogo.jpg"/><br />Mahindra</a></div>
+                        <div class="inline-block"><a href="Yamaha/Yamaha.html"><img src="Yamaha/YamahaLogo.png"/><br />Yamaha</a></div>
+                        <div class="inline-block"><a href="KTM/KTM.html"><img src="KTM/KTMLogo.jpg"/><br />KTM</a></div>
+                        <div class="inline-block"><a href="Royal Enfield/Royal Enfield.html"><img src="Royal Enfield/RELogo.jpe"/><br />Royal Enfield</a></div>
+                        <div class="inline-block"><a href="Ducati/Ducati.html"><img src="Ducati/ducatilogo.jpg"/><br />Ducati</a></div>
+                        <div class="inline-block"><a href="Suzuki/Suzuki.html"><img src="Suzuki/suzukilogo.jpg"/><br />Suzuki</a></div>
+                        <div class="inline-block"><a href="Bajaj/Bajaj.html"><img src="Bajaj/BajajLogo.jpe"/><br />Bajaj</a></div>
+                        <div class="inline-block"><a href="Triumph/Triumph.html"><img src="Triumph/triumph logo.jpg"/><br />Triumph</a></div>
+                	</div>
+
+                	<div id="budget" class="category">
+                        <h2 align="left">Budget</h2>
+                        <hr id="hr2">
+                        <a href="budget/upto6.html"><div class="style_budget_mileage"><p>UPTO &#8377; 60,000</p></div></a>
+                        <a href="budget/upto6_10.html"><div class="style_budget_mileage"><p>&#8377; 60,000 to &#8377; 1,00,000</p></div></a>
+                        <a href="budget/upto10_25.html"><div class="style_budget_mileage"><p>&#8377; 1,00,000 to &#8377; 2,50,000</p></div></a>
+                        <a href="budget/above25"><div class="style_budget_mileage"><p>&#8377; 2,50,000 onwards </p></div></a>
+                        
+                	</div>
+
+                	<div id="mileage" class="category">
+                        <h2 align="left">Mileage</h2>
+                        <hr id="hr3">
+                        <a href="mileage/above70.html"><div class="style_budget_mileage"><p>Above 70 kmpl</p></div></a>
+                        <a href="mileage/upto50_70.html"><div class="style_budget_mileage"><p>70 kmpl to 50 kmpl</p></div></a>
+                        <a href="mileage/upto30_50.html"><div class="style_budget_mileage"><p>50 kmpl to  30 kmpl</p></div></a>
+                        <a href="mileage/upto30"><div class="style_budget_mileage"><p> Upto 30 kmpl </p></div></a>
+                	</div>
+
+                	<div id="style" class="category">
+                        <h2 align="left">Style</h2>
+                        <hr id="hr4">
+                        <a href="style/commuter.html"><div class="style_budget_mileage"><p>Commuter</p></div></a>
+                        <a href="style/cruiser.html"><div class="style_budget_mileage"><p>Cruiser</p></div></a>
+                        <a href="style/sportsbike.html"><div class="style_budget_mileage"><p>Sportsbike</p></div></a>
+                        <a href="style/scooters.html"><div class="style_budget_mileage"><p>Scooters</p></div></a>
+                	</div>
+                    
+                </div>
+                <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+        
+	</body>
+</html>

@@ -1,0 +1,163 @@
+/*css common to final pages starts */
+            .bike-main{
+                height: 30%;
+                background-color: white;
+                border: 1px solid black;
+                border-bottom: 0px;
+                border-radius: 0.4%;
+            }
+            .bike-main img{
+                border: 1px solid black;
+                position: relative;
+                top: 7%;
+                border-radius: 1%;
+                left: 6%;
+            }
+            #bike-price{
+              position: relative;
+              top:29%;
+              font-size: 24px;
+            }
+            #underline{
+                border: 2px solid red;
+
+            }
+            .inline{
+                display: inline;
+            }
+            #para{
+                margin-top: 0px;
+                background-color: white;
+                border: 1px solid black;
+                border-top: 0px;
+                border-radius: 0.4%;
+            }
+            #first-para{
+              margin-top: 0;
+            }
+            #para p{
+                position: relative;
+                top: 13%;
+                
+                text-indent: 10%;
+                margin-left:3%;
+                margin-right: 3%;
+                font-size: 21px;
+            }
+            #specs{
+                margin-top: 10px;
+                background-color: white;
+                border: 1px solid black;
+                border-radius: 0.4%;
+            }
+            #specs ul{
+                list-style-type: none;
+                text-align: center;
+            } 
+            #specs ul li{
+                display: inline-block;
+                font-size: 24px;
+                margin-right: 8%;
+                margin-left: 8%;
+            }
+            #specs ul li a{
+                text-decoration: none;
+
+            }
+             #specs ul li a:hover{
+                text-decoration: none;
+                font-weight: bold;
+            }
+            #specs hr{
+                color:red;
+                position: relative;
+                bottom: 20%;
+                left:1%;
+                width:96%; 
+           }
+           .cat p{
+                font-size: 24px;
+           }
+           #overview{
+                margin-bottom: 6%;
+           }
+           #overview ul li{
+                display: inline-block;
+                margin-left: 3%;
+                margin-right: 3%;
+           }
+           .overview-vr{
+                margin:0px;
+           }
+           .overview-vr div{
+                height: 59px;
+                border-right:1px solid #A8A8A8; 
+           }
+           .small-font{
+                font-size:17px;
+                color:#585858;
+           }
+           #specifications{
+                margin-bottom:6%;
+           }
+           #specifications ul li{
+                text-align: left; 
+                display: block;
+           }
+           .speci-div{
+                border:1px solid #A8A8A8;
+                cursor: pointer;
+                width: 46%;
+                background-color:rgb(245,245,245); 
+                padding-left:1%;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                text-align: center;
+           }
+           .specif-content-dimen{
+            border: 1px solid black;
+            border-top: white;
+            border-bottom: 1px solid #A8A8A8;
+            width:47%;            
+            display: none;
+           }
+           .specif-content-dimen td{
+                width:350px;
+             font-size: 20px;
+           }
+           #specif-content-center{
+                position: relative;
+                left: 21%;
+           }
+           #specif-content-center table{
+                border-spacing:50% 20px; 
+           }
+           .text-bold{
+                font-weight: bold;
+               
+           }
+           #features{
+             margin-bottom:6%; 
+           }
+           #features-content td{
+                font-size: 20px;
+           }
+           #features-content .text-bold{
+                padding-right: 200px;
+           }
+           #colors{
+                margin-bottom: 6%;
+           }
+           .colors-content{
+                width:140px;
+                height: 119px;
+                display: inline-block;
+                margin-bottom: 30px;
+           }
+           .colors-content p{
+                font-size: 18px;
+           }
+           .colors-content-rgb{
+                width:60px;
+                height: 60px;
+           }

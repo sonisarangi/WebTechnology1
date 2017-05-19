@@ -1,0 +1,117 @@
+
+<html>
+	<head>
+        <title>About Us</title>
+        <link rel="stylesheet" type="text/css" href="header_footer.css">
+		<style type="text/css">
+            
+            .img img{
+                border-radius: 6%;
+            }
+            
+			
+			.front{
+				display: inline-block;
+                margin: 14px;
+			}
+            #underline{
+                border: 2px solid red;
+
+            }
+            .inline{
+                display: inline;
+            }
+            .border{
+                border: 1px solid black;
+                background-color: white;
+                border-radius: 1%;
+                height:700px;
+            }
+		</style>
+        <script src="jquery-2.1.4.js"></script>
+        <script src="jquery-ui.js"></script>
+ 	</head>
+	<body>
+        <div class="container">
+        <div id="SiteName">
+            <div id="sideBar">
+                <div class="sidebar" id="sideBar1"></div>
+                <div class="sidebar" id="sideBar4"></div>
+                <div class="sidebar" id="sideBar2"></div>
+                <div class="sidebar" id="sideBar5"></div>
+                <div class="sidebar" id="sideBar3"></div>
+
+            </div>
+            
+            <h1>DiscoverBikes</h1><h5><a href="">Login</a></h5>
+        </div>
+        <div id="open" align="center">
+                <ul >
+                    <li align="left"><a href="DiscoverBikes.html">Home</a></li>
+                    <li align="left"><a href="PopularBikes.html">Popular Bikes</a></li>
+                    <li align="left"><a href="NewBikes.html">New Bikes</a></li>
+                    <li align="left"><a href="ContactUs.html">Contact Us</a></li>
+                    <li align="left"><a href="AboutUs.html">About us</a></li>
+                </ul>
+        </div>
+        <script>
+            $("#sideBar1,#sideBar2,#sideBar3,#sideBar4,#sideBar5").click(function(){ 
+                var effect = 'slide';
+                var options = { direction: 'left' };
+                 var duration = 700;
+                 $('#open').toggle(effect, options, duration);
+        })
+        </script>
+        <section> 
+            <div id="mainbody">
+            <div class="bike-container" align="center">
+                <div align="left"><p class="inline" align="left"></p><h2 class="inline" align="left">About Us</h2></div>
+
+                <div class="border">
+			
+                     
+                    <p><h2> We the students of 'H' Section,3rd Sem, CSE, PESIT have developed this site in order to simplify the complexity of buying a two-wheeler in    India. This site offers information of wide range of Indian and imported bikes. It provides information about their specifications,features,variants and prices. It also gives the list of popular and newly-launched bikes in the market.</h2></p>
+
+                
+                <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div align="center" id="footer">
+                    <table align="left" cellspacing="9px" id="JoinUsOn">
+                        <tr>
+                            <th align="left" colspan="3" style="color:white;font-size:22px;">Follow Us On</th>
+                        </tr>
+                        <tr>
+                            <td class="circle" id="face"><a href="https://www.facebook.com/"><p align="center"><b>f</b></p></a></td>
+                            <td class="circle" id="twit"><a href="https://twitter.com/?lang=en"><p align="center"><b>tweet</b></p></a></td>
+                            <td class="circle" id="gplus"><a href="https://www.google.co.in/"><p align="center"><b>g+</b></p></a></td>
+                        </tr>
+                    </table>
+                    <table align="right" cellspacing="14px" id="Company">
+                        <tr>
+                            <th align="left" colspan="2" style="color:white;font-size:22px;">Company</th>
+                        </tr>
+                        <tr>
+                            <td><a href="AboutUs.html">About Us</a></td>
+                            <td><a href="ContactUs.html">Contact Us</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="PrivacyPolicy.html">Privacy Policy</a></td>
+                            <td><a href="VisitorAgree.html">Visitor Agreement</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="Advertise.html">Advertise With Us</a></td>
+                            <td><a href="MobileVersion.html">Visit the Mobile Version</a></td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <p id="copyright">&#169; DiscoverBikes India</p>
+                    <p id="Privacy_Visitor"><a href="VisitorAgree.html">Vistor Agreement</a> &amp; <a href="PrivacyPolicy.html">Privacy Policy</a></p>
+            </div>
+        </footer>
+         </div>
+	</body>
+</html>

@@ -1,0 +1,233 @@
+
+<html>
+	<head>
+        <title>Popular Bikes</title>
+        <link rel="stylesheet" type="text/css" href="header_footer.css">
+		<style type="text/css">
+            
+            .img img{
+                border-radius: 6%;
+            }
+            
+			
+			.front{
+				display: inline-block;
+                margin: 14px;
+			}
+            #underline{
+                border: 2px solid red;
+
+            }
+            .inline{
+                display: inline;
+            }
+            .border{
+                border: 1px solid black;
+                background-color: white;
+                border-radius: 1%;
+            }
+		</style>
+        <script src="jquery-2.1.4.js"></script>
+        <script src="jquery-ui.js"></script>
+ 	</head>
+	<body>
+        <div class="container">
+        <div id="SiteName">
+            <div id="sideBar">
+                <div class="sidebar" id="sideBar1"></div>
+                <div class="sidebar" id="sideBar4"></div>
+                <div class="sidebar" id="sideBar2"></div>
+                <div class="sidebar" id="sideBar5"></div>
+                <div class="sidebar" id="sideBar3"></div>
+
+            </div>
+            
+            <h1>DiscoverBikes</h1><h5><a href="">Login</a></h5>
+        </div>
+        <div id="open" align="center">
+                <ul >
+                    <li align="left"><a href="DiscoverBikes.html">Home</a></li>
+                    <li align="left"><a href="PopularBikes.html">Popular Bikes</a></li>
+                    <li align="left"><a href="NewBikes.html">New Bikes</a></li>
+                    <li align="left"><a href="ContactUs.html">Contact Us</a></li>
+                    <li align="left"><a href="AboutUs.html">About us</a></li>
+                </ul>
+        </div>
+        <script>
+            $("#sideBar1,#sideBar2,#sideBar3,#sideBar4,#sideBar5").click(function(){ 
+                var effect = 'slide';
+                var options = { direction: 'left' };
+                 var duration = 700;
+                 $('#open').toggle(effect, options, duration);
+        })
+        </script>
+        <section> 
+            <div id="mainbody">
+            <div class="bike-container" align="center">
+                <div align="left"><p class="inline" align="left"></p><h2 class="inline" align="left">Popular Bikes</h2></div>
+
+                <div class="border">
+                        <ul align="center">
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Honda/cbr250r/cbr250.html'><img class="lazy" src="Honda/cbr250r.jpg" width="310" height="174"> </a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='Honda/cbr250r/cbr250.html' title="CBR250R">CBR250R</a></h3> </div>
+                                                      <p>1,67,673 Onwards</p>  
+                                                      <p>249.6  CC ,  29  Kmpl ,  26.15  bhp</p>  
+                                                </div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='KTM/rc200/rc200.html'><img class="lazy" src="KTM/rc200.jpg" width="310" height="174"></a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='KTM/rc200/rc200.html'>RC 200</a></h3></div>
+                                                    <p> 1,64,241  Onwards</p> <p>199 CC , 30 Kmpl , 25 bhp</p> </div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Honda/activa3g/activa3g.html'><img class="lazy" src="Honda/activa3g.jpg" width="310" height="174"></a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='Honda/activa3g/activa3g.html'>Activa 3G</a></h3>
+                                                    <p> 52,888  Onwards</p><p>109.2 CC 71 Kmpl bhp</p></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Bajaj/avenger/avenger.html'><img class="lazy" src="Bajaj/avenger.jpg" width="310" height="174"></a> </div>
+                                            <div class="desc">
+                                                <div class="bikeName"> <h3><a href='Bajaj/avenger/avenger.html' title="Activa 125">Avenger</a></h3></div>
+                                                 <p> 75,502 Onwards</p><p>220 CC , 34 Kmpl , 19 bhp</p></div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='KTM/duke200/duke200.html'><img class="lazy" src="KTM/duke200.jpg" width="310" height="174"></a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='KTM/duke200/duke200.html'>Duke 200</a></h3>
+                                                    <p> 1,36,147  Onwards</p><p>200 CC , 35 Kmpl , 25 bhp</p></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Royal Enfield/classic350/classic350.html'><img class="lazy" src="Royal Enfield/classic350.jpg" width="310" height="174"></a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='Royal Enfield/classic350/classic350.html'>Classic 350</a></h3>
+                                                    <p> 1,25,465  Onwards</p><p>346 CC , 40 Kmpl , 19 bhp</p></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Royal Enfield/electra/electra.html'><img class="lazy" src="Royal Enfield/bullelectwin.jpg" width="310" height="174"> </a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='Royal Enfield/electra/electra.html' title="CBR250R">Bullet Electra Twinspark</a></h3> </div>
+                                                      <p>1,17,681 Onwards</p>  
+                                                      <p>346  CC ,  37  Kmpl ,  19  bhp</p>  
+                                                </div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='TVS/apache180/apache180.html'><img class="lazy" src="TVS/apache 180.jpg" width="310" height="174"></a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"> <h3><a href='TVS/apache180/apache.html'>TVS Apache 180R ABS</a></h3></div>
+                                                    <p>86,662  Onwards</p>
+                                                    <p>177 CC, 45 Kmpl 17.3 bhp</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Yamaha/fzs2/fsz2.html'><img class="lazy" src="Yamaha/fzs2.jpg" width="310" height="174"></a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='Yamaha/fzs2/fsz2.html'>FZ S V 2.0</a></h3>
+                                                    <p> 85,451  Onwards</p><p>149 CC , 50 Kmpl , 13 bhp</p></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Yamaha/fazer/fazer.html'><img class="lazy" src="Yamaha/fazer2.jpg" width="310" height="174"></a> </div>
+                                            <div class="desc">
+                                                <div class="bikeName"> <h3><a href='Yamaha/fazer/fazer.html' title="Activa 125">Fazer F1 V 2.0</a></h3></div>
+                                                 <p> 90,822 Onwards</p><p>149 CC , 50 Kmpl , 13 bhp</p></div>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"> <a href='Honda/CB160/cb160.html'><img class="lazy" src="Honda/cb160.jpg" width="310" height="174"></a> </div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='Honda/CB160/cb160.html'>CB Unicorn 160</a></h3></div>
+                                                <p>77,119  Onwards</p><p>163 CC 62 Kmpl 14.5 bhp</p></div>
+                                        </div>
+                                    </li>
+                                
+                                    
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Honda/Dio/dio.html'><img class="lazy" src="Honda/dio.jpg" width="310" height="174"></a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='Honda/Dio/dio.html' title="Dio">Dio</a></h3></div>
+                                                    <p>51,555 Onwards</p>
+                                                    </p>109 CC 66Kmpl 11 bhp</p>
+                                        </div>
+                                    </li>
+                                    <li class="front">
+                                        <div class="content">
+                                            <div class="img"><a href='Bajaj/pulsar150/pulsar150.html'><img class="lazy" src="Bajaj/pulsar150.jpg" width="310" height="174"></a></div>
+                                            <div class="desc">
+                                                <div class="bikeName"><h3><a href='Bajaj/pulsar150/pulsar150.html'>Pulsar 150 DTS-i</a></h3>
+                                                    <p> 65,497  Onwards</p><p>149 CC , 65 Kmpl , 15 bhp</p></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                        </ul>
+                    
+                
+                <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div align="center" id="footer">
+                    <table align="left" cellspacing="9px" id="JoinUsOn">
+                        <tr>
+                            <th align="left" colspan="3" style="color:white;font-size:22px;">Follow Us On</th>
+                        </tr>
+                        <tr>
+                            <td class="circle" id="face"><a href="https://www.facebook.com/"><p align="center"><b>f</b></p></a></td>
+                            <td class="circle" id="twit"><a href="https://twitter.com/?lang=en"><p align="center"><b>tweet</b></p></a></td>
+                            <td class="circle" id="gplus"><a href="https://www.google.co.in/"><p align="center"><b>g+</b></p></a></td>
+                        </tr>
+                    </table>
+                    <table align="right" cellspacing="14px" id="Company">
+                        <tr>
+                            <th align="left" colspan="2" style="color:white;font-size:22px;">Company</th>
+                        </tr>
+                        <tr>
+                            <td><a href="AboutUs.html">About Us</a></td>
+                            <td><a href="ContactUs.html">Contact Us</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="PrivacyPolicy.html">Privacy Policy</a></td>
+                            <td><a href="VisitorAgree.html">Visitor Agreement</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="Advertise.html">Advertise With Us</a></td>
+                            <td><a href="MobileVersion.html">Visit the Mobile Version</a></td>
+                        </tr>
+                    </table>
+                    <hr>
+                    <p id="copyright">&#169; DiscoverBikes India</p>
+                    <p id="Privacy_Visitor"><a href="VisitorAgree.html">Vistor Agreement</a> &amp; <a href="PrivacyPolicy.html">Privacy Policy</a></p>
+            </div>
+        </footer>
+         </div>
+	</body>
+</html>

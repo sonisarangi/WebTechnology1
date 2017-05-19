@@ -1,0 +1,228 @@
+            body{
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-right: 2px;
+                margin-left: 0;
+                background-color:#D9d9d9; 
+            }
+            @font-face{
+                font-family:myFirstFont;
+                src:url(thinCursive.ttf);
+            }
+            h1{
+                margin-top: 0;
+                position: absolute;
+                top: .1em;
+                left:+1.5em;
+                color:#E0E0E0;
+                font-size: 40px;
+                font-family: myFirstFont;
+
+            }
+            h5 a{
+                margin-top: 0;
+                position: absolute;
+                top: .7em;
+                right:+1.5em;
+                color:#E0E0E0;
+                text-decoration: none;
+                font-size: 16px;
+            }
+            h5 a:hover{
+                color:white;
+                text-decoration: none;
+                font-weight:bold;
+            }
+            #SiteName{
+                z-index: 10;
+                position: fixed;
+                width:100%;
+                height:40px;
+                background-color: #585858;
+                opacity: 0.60; 
+            }
+            .sidebar{
+                margin-left: 8px;
+                background-color: white;
+                height: 3px;
+            }
+            /*#SideBarContainer{
+                top: 50em;
+                width:50px;
+                background-color: red;
+                width:100%;
+            }*/
+            #sideBar1{
+                position: relative;
+                margin-top: 0.5%;
+                cursor: pointer;
+                width:1.5%;
+            }
+            #sideBar2{
+                position: relative;
+                cursor: pointer;
+                width:1%;
+            }
+            #sideBar3{
+                position: relative;
+                cursor: pointer;
+                width:1.3%;
+            }
+            #sideBar4{
+                position: relative;
+                background-color: #585858;
+                opacity: 0.60;
+                height: 4px; 
+                width:1%;
+                cursor: pointer;
+            }
+            #sideBar5{
+                position: relative;
+                background-color: #585858;
+                height: 4px;
+                opacity: 0.60; 
+                width:1%;
+                cursor: pointer;
+            }
+            #iniPic{
+                width:80%;
+                height:50%;
+            }
+            #open{
+                border-style:solid;
+                border-right-color: #585858;
+                border-bottom-color: #585858;
+                border-left-color:#585858;
+                border-top-color:#585858;  
+                background-color: #585858;
+                width:250px;
+                height:100%;
+                position: fixed;
+                top:40px;
+                z-index: 10;
+                opacity: 0.6;
+                display: none;
+            }
+            #open ul{
+                margin:17%;
+                list-style-type: none;
+                color:white;
+            }
+            #open li{
+                position: relative;
+                left:-13%;
+                margin-bottom: 25px;
+            }
+            #open a{
+                font-size: 24px;
+                color: white;
+                text-decoration: none;
+            }
+            #open a:hover{
+                text-decoration: none;
+                font-weight: bold;
+            }
+        
+            #footer{
+               
+                position: relative;
+                bottom:0px;
+                width: 100%;
+                height:200px;
+                background-color:#585858;
+            }
+            #JoinUsOn{
+                position: relative;
+                left:25%;
+            }
+            .circle{
+                border:1.5px solid #fff;
+                border-radius: 100%;
+                height:50px;
+                width: 50px;
+                background-color:#585858 ;
+            }
+            #footer a{
+                color:white;
+                text-decoration: none;
+            }
+            #footer a:hover{
+                text-decoration: underline;
+            }
+            #face a{
+                font-size: 18px;
+                text-decoration: none;
+            }
+
+            #face:hover{
+                background-color: #8b9dc3;
+            }
+            #twit a{
+                font-size: 18px;
+                text-decoration: none;
+            }
+            #twit:hover{
+                background-color: rgb(22,202,255);
+            }
+            #gplus a{
+                font-size: 18px;
+                text-decoration: none;
+            }
+            #gplus:hover{
+                background-color: #dd4b39;
+            }
+            .circle a:hover{
+                text-decoration: none;
+            }
+            #Company{
+                position:relative;
+                left:-25%;
+            }
+            #Company a{
+                font-size: 17px;
+            }
+            
+            hr{
+                border-color:white;
+                width:50%;
+                position:relative;
+                bottom:-10em;
+                left:4em;
+            }
+            #copyright{
+                color:white;
+                position:relative;
+                bottom:-9em;
+                left:-18%;
+            }
+            #Privacy_Visitor{
+                color:white;
+                position:relative;
+                bottom:-7em;
+                left:22%;
+            }
+            
+            .companyName{
+                font-size: 24px;
+                font-weight: bold;
+            }
+        	.bike-container{
+
+                position: relative;
+                left: 20%;
+                top: 20%;
+				width:60%;
+                
+                padding-top: 10%;
+			}
+             ul{
+                padding-left: 0px;
+            }
+            li a{
+                text-decoration: none;
+                color: black;
+            }
+            li a:hover{
+                text-decoration: underline;
+            }
+            
